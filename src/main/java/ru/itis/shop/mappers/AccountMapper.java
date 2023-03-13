@@ -3,7 +3,7 @@ package ru.itis.shop.mappers;
 import org.mapstruct.Mapper;
 import ru.itis.shop.dto.AccountDto;
 import ru.itis.shop.dto.SignUpDto;
-import ru.itis.shop.models.Account;
+import ru.itis.shop.Account;
 
 @Mapper(componentModel = "spring")
 public interface AccountMapper {

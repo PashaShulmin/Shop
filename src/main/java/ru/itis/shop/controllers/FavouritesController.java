@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.itis.shop.security.details.AccountUserDetails;
-import ru.itis.shop.services.ItemsService;
+import ru.itis.shop.services.*;
 
 @Controller
 @RequiredArgsConstructor

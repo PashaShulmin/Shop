@@ -10,9 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.itis.shop.dto.ItemForm;
 import ru.itis.shop.dto.PurchaseForm;
-import ru.itis.shop.services.ItemsService;
-import ru.itis.shop.services.PurchasesService;
 import ru.itis.shop.security.details.AccountUserDetails;
+import ru.itis.shop.services.*;
 
 @Controller
 @RequiredArgsConstructor

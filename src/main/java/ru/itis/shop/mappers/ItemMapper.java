@@ -2,7 +2,7 @@ package ru.itis.shop.mappers;
 
 import org.mapstruct.Mapper;
 import ru.itis.shop.dto.ItemDto;
-import ru.itis.shop.models.Item;
+import ru.itis.shop.Item;
 
 import java.util.List;
 

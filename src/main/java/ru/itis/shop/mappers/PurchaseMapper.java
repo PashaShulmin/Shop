@@ -2,7 +2,7 @@ package ru.itis.shop.mappers;
 
 import org.mapstruct.Mapper;
 import ru.itis.shop.dto.PurchaseDto;
-import ru.itis.shop.models.Purchase;
+import ru.itis.shop.Purchase;
 
 import java.util.List;
 

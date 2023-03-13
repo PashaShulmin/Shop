@@ -1,7 +1,7 @@
 package ru.itis.shop.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.itis.shop.models.FileInfo;
+import ru.itis.shop.FileInfo;
 
 import java.util.Optional;
 
