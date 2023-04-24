@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import ru.itis.shop.services.*;
+import ru.itis.shop.services.FilesService;
 
 import javax.servlet.http.HttpServletResponse;
 
