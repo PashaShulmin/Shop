@@ -8,6 +8,7 @@ import ru.itis.shop.models.Order;
 import ru.itis.shop.models.Purchase;
 import ru.itis.shop.repositories.OrdersRepository;
 import ru.itis.shop.repositories.PurchasesRepository;
+import ru.itis.shop.services.PurchasesService;
 
 import java.util.ArrayList;
 import java.util.List;

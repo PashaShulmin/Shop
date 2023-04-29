@@ -12,6 +12,7 @@ import ru.itis.shop.dto.ItemForm;
 import ru.itis.shop.dto.PurchaseForm;
 import ru.itis.shop.security.details.AccountUserDetails;
 import ru.itis.shop.services.*;
+import ru.itis.shop.services.PurchasesService;
 
 @Controller
 @RequiredArgsConstructor
