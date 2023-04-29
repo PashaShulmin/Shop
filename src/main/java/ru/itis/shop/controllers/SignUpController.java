@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import ru.itis.shop.dto.SignUpDto;
-import ru.itis.shop.services.*;
+import ru.itis.shop.services.SignUpService;
 
 import javax.validation.Valid;
 

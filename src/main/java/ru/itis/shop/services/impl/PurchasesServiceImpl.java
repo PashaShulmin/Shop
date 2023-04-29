@@ -18,13 +18,14 @@ import ru.itis.shop.models.Purchase;
 import ru.itis.shop.repositories.AccountsRepository;
 import ru.itis.shop.repositories.ItemsRepository;
 import ru.itis.shop.repositories.PurchasesRepository;
+import ru.itis.shop.services.PurchasesService;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @RequiredArgsConstructor
 @Service
-public class PurchasesServiceImpl {
+public class PurchasesServiceImpl implements PurchasesService {
     private final PurchasesRepository purchasesRepository;
     private final ItemsRepository itemsRepository;
     private final AccountsRepository accountsRepository;

@@ -12,12 +12,13 @@ import ru.itis.shop.models.Account;
 import ru.itis.shop.models.Item;
 import ru.itis.shop.repositories.AccountsRepository;
 import ru.itis.shop.repositories.ItemsRepository;
+import ru.itis.shop.services.ItemsService;
 
 import java.util.List;
 
 @RequiredArgsConstructor
 @Service
-public class ItemsServiceImpl {
+public class ItemsServiceImpl implements ItemsService {
     private final ItemsRepository itemsRepository;
     private final ItemMapper itemMapper;
     private final FilesServiceImpl filesServiceImpl;

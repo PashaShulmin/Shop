@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.itis.shop.security.details.AccountUserDetails;
-import ru.itis.shop.services.*;
+import ru.itis.shop.services.OrdersService;
 import ru.itis.shop.services.PurchasesService;
 
 @Controller

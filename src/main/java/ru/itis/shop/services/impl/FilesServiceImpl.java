@@ -9,6 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 import ru.itis.shop.exceptions.FileNotFoundException;
 import ru.itis.shop.models.FileInfo;
 import ru.itis.shop.repositories.FilesRepository;
+import ru.itis.shop.services.FilesService;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.FileInputStream;
@@ -20,7 +21,7 @@ import java.util.UUID;
 
 @RequiredArgsConstructor
 @Service
-public class FilesServiceImpl {
+public class FilesServiceImpl implements FilesService {
     @Value("${files.storage.path}")
     private String storagePath;
 

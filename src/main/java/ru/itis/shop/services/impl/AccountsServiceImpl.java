@@ -10,12 +10,13 @@ import ru.itis.shop.mappers.AccountMapper;
 import ru.itis.shop.models.Account;
 import ru.itis.shop.repositories.AccountsRepository;
 import ru.itis.shop.security.details.AccountUserDetails;
+import ru.itis.shop.services.AccountsService;
 import ru.itis.shop.services.FilesService;
 
 
 @RequiredArgsConstructor
 @Service
-public class AccountsServiceImpl {
+public class AccountsServiceImpl implements AccountsService {
     private final AccountsRepository accountsRepository;
     private final AccountMapper accountMapper;
     private final FilesService filesService;
