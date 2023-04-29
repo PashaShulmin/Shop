@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
 import ru.itis.shop.security.details.AccountUserDetails;
-import ru.itis.shop.services.*;
+import ru.itis.shop.services.AccountsService;
 
 @RequiredArgsConstructor
 @Controller
