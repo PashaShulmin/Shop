@@ -4,8 +4,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.itis.shop.dto.OrderDto;
-import ru.itis.shop.Order;
-import ru.itis.shop.Purchase;
+import ru.itis.shop.models.Order;
+import ru.itis.shop.models.Purchase;
 import ru.itis.shop.repositories.OrdersRepository;
 import ru.itis.shop.repositories.PurchasesRepository;
 

@@ -10,7 +10,7 @@ import ru.itis.shop.exceptions.AccountAlreadyExistException;
 import ru.itis.shop.exceptions.AccountNotFoundException;
 import ru.itis.shop.util.EmailUtil;
 import ru.itis.shop.mappers.AccountMapper;
-import ru.itis.shop.Account;
+import ru.itis.shop.models.Account;
 import ru.itis.shop.repositories.AccountsRepository;
 
 import java.util.HashMap;

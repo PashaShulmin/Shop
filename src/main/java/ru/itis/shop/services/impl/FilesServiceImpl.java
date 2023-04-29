@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 import ru.itis.shop.exceptions.FileNotFoundException;
-import ru.itis.shop.FileInfo;
+import ru.itis.shop.models.FileInfo;
 import ru.itis.shop.repositories.FilesRepository;
 
 import javax.servlet.http.HttpServletResponse;

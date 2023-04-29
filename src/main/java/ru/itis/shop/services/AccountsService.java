@@ -5,9 +5,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import ru.itis.shop.dto.AccountDto;
 import ru.itis.shop.exceptions.AccountNotFoundException;
-import ru.itis.shop.FileInfo;
+import ru.itis.shop.models.FileInfo;
 import ru.itis.shop.mappers.AccountMapper;
-import ru.itis.shop.Account;
+import ru.itis.shop.models.Account;
 import ru.itis.shop.repositories.AccountsRepository;
 import ru.itis.shop.security.details.AccountUserDetails;
 

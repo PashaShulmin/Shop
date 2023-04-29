@@ -1,7 +1,7 @@
 package ru.itis.shop.services;
 
 import org.springframework.web.multipart.MultipartFile;
-import ru.itis.shop.FileInfo;
+import ru.itis.shop.models.FileInfo;
 
 import javax.servlet.http.HttpServletResponse;
 import java.util.Optional;

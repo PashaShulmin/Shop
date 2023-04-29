@@ -6,10 +6,10 @@ import ru.itis.shop.dto.ItemDto;
 import ru.itis.shop.dto.ItemForm;
 import ru.itis.shop.exceptions.AccountNotFoundException;
 import ru.itis.shop.exceptions.ItemNotFoundException;
-import ru.itis.shop.FileInfo;
+import ru.itis.shop.models.FileInfo;
 import ru.itis.shop.mappers.ItemMapper;
-import ru.itis.shop.Account;
-import ru.itis.shop.Item;
+import ru.itis.shop.models.Account;
+import ru.itis.shop.models.Item;
 import ru.itis.shop.repositories.AccountsRepository;
 import ru.itis.shop.repositories.ItemsRepository;
 
